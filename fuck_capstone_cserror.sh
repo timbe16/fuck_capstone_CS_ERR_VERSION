@@ -3,7 +3,7 @@
 # get the latest capstone source code from github
 echo "[*] cloning capstone respository to ~/capstone..."
 cd ~/ && git clone https://github.com/aquynh/capstone.git ~/capstone
-
+git checkout 4.0
 # config
 echo "[*] configuring capstone..."
 cd capstone/
